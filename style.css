@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bba8a8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  button {
+    padding: 10px;
+    background-color: #43cc47;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+  background-color: #45a049;
+}
+  .signup-form {
+    background-color: #f1b4b4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  .login-form {
+    background-color: #d1cece;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(32, 1, 1, 0.2);
+  }
+   
+  h2 {
+    color: #333;
+  }
+p{
+ color: #5e0d0d;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
